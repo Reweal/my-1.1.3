@@ -32,14 +32,14 @@ public class Main {
         us.removeUserById(2);
 
         List<User> list2 = new ArrayList<>(us.getAllUsers());
-        for(User u : list) {
+        for(User u : list2) {
             System.out.println(u);
         }
 
         us.cleanUsersTable();
 
         List<User> list3 = new ArrayList<>(us.getAllUsers());
-        for(User u : list) {
+        for(User u : list3) {
             System.out.println(u);
         }
 
